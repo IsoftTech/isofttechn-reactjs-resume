@@ -70,7 +70,7 @@ export class Landing extends Component {
                <i> <Icon icon={facebookMessenger} /></i>
                 </a>
                   { /* Whatsapp */ }
-                 <a href="https://api.whatsapp.com/send?phone=9036779231&text=Hi,%20thanks%20for%20messaging%20me.%20Please%20write%20all%20your%20messages%20here." target="_blank" rel="noopener noreferrer"><i style={{color: '#0dc043'}}> <FaWhatsapp /></i></a>
+                 <a href="https://api.whatsapp.com/send?phone=2349036779231&text=Hi,%20thanks%20for%20messaging%20me.%20Please%20write%20all%20your%20messages%20here." target="_blank" rel="noopener noreferrer"><i style={{color: '#0dc043'}}> <FaWhatsapp /></i></a>
                </div>
 
             </div>
