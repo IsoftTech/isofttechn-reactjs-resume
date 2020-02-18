@@ -27,16 +27,15 @@ class WordPress extends Component {
               style={{ height: "250px", background: " center /cover" }}
             />
             <CardTitle style={{ color: "#000", textAlign: "center" }}>
-              React Business App
+              Enigeria Conference Manament System
             </CardTitle>
 
             <CardText>
-              React Business web template. Built with reactjs, css, router,
-              bootstrap
+              eNigeria conference management system initially built with nodejs and angular, then change to wordpress
             </CardText>
             <CardActions border>
               <Button colored>
-                <a href="https://enigeria.gov.ng" target="_blank">
+                <a href="https://github.com/IsoftTech/nigeria" target="_blank">
                   Github
                 </a>
               </Button>
@@ -63,12 +62,11 @@ class WordPress extends Component {
               style={{ height: "250px", background: " center /cover" }}
             />
             <CardTitle style={{ color: "#000", textAlign: "center" }}>
-              React Github User Finder
+              HunkyBee - Online Store India 
             </CardTitle>
 
             <CardText>
-              React github user finder is a web app that allow finding, of
-              users, repos and other details
+              is an online clothing store that sells kurtis, western wear, men's tees, jumpsuits, sarees, etc and is headquartered at Hyderabad.
             </CardText>
             <CardActions border>
               <Button colored>
@@ -98,12 +96,12 @@ class WordPress extends Component {
               style={{ height: "250px", background: " center /cover" }}
             />
             <CardTitle style={{ color: "#000", textAlign: "center" }}>
-              React Business App
+              Christ Foundation Basic Academy
             </CardTitle>
             <CardActions border>
               <CardText>
-                React Business web template. Built with reactjs, css, router,
-                bootstrap
+                Christ foundation basic academy built with wordPress and PHP. It includes school management system for 
+                managing school activities, staff, students and parents
               </CardText>
               <Button colored>
                 <a href="https://www.cfba.com.ng" target="_blank">

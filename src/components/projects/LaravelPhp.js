@@ -70,12 +70,11 @@ class LaravelPhp extends Component {
               style={{ height: "250px", background: " center /cover" }}
             />
             <CardTitle style={{ color: "#000", textAlign: "center" }}>
-              React Github User Finder
+              Multi - User Manager
             </CardTitle>
 
             <CardText>
-              React github user finder is a web app that allow finding, of
-              users, repos and other details
+              Multi user manager is built with PHP, Laravel, and vuejs. You can add users, assign roles and more
             </CardText>
 
             <CardActions border>
@@ -116,12 +115,11 @@ class LaravelPhp extends Component {
               style={{ height: "250px", background: " center /cover" }}
             />
             <CardTitle style={{ color: "#000", textAlign: "center" }}>
-              React Business App
+              Laravel Multi - User Manager
             </CardTitle>
 
             <CardText>
-              React Business web template. Built with reactjs, css, router,
-              bootstrap
+              Multi user manager is built with PHP, Laravel, and vuejs. You can add users, assign roles and more
             </CardText>
 
             <CardActions border>

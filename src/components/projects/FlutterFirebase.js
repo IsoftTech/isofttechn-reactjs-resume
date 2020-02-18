@@ -12,8 +12,8 @@ import {
   IconButton
 } from "react-mdl";
 
-import pic1 from "../../images/projects/pic1.PNG";
-import pr1 from "../../images/projects/pr1.png";
+import fcom1 from "../../images/projects/fcom1.PNG";
+import fcom2 from "../../images/projects/fcom2.PNG";
 
 class FlutterFirebase extends Component {
   render() {
@@ -22,21 +22,41 @@ class FlutterFirebase extends Component {
         <div className="projects-grid">
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <img
-              src={pr1}
-              style={{ height: "250px", background: " center /cover" }}
+              src={fcom1}
+              style={{ height: "400px", background: " center /cover" }}
             />
             <CardTitle style={{ color: "#000", textAlign: "center" }}>
-              React Business App
+              Flutter Ecommerce
             </CardTitle>
 
             <CardText>
-              React Business web template. Built with reactjs, css, router,
-              bootstrap
+              Flutter E-Commerce Starter is a mobile application template with lots of built-in components like sidebar, navigation, slider, cards, form elements, etc - all you need to start building your mobile app faster. 
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Live Demo</Button>
-              <Button colored>Quick View</Button>
+              <Button colored>
+                <a
+                  href="https://github.com/IsoftTech/ecommerce-backend_frontend"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://github.com/IsoftTech/ecommerce-backend_frontend"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://github.com/IsoftTech/ecommerce-backend_frontend"
+                  target="_blank"
+                >
+                  Quick View
+                </a>
+              </Button>
             </CardActions>
 
             {/* <CardMenu style={{ color: "#fff", fontSize: "10px !important" }}>
@@ -44,54 +64,8 @@ class FlutterFirebase extends Component {
             </CardMenu> */}
           </Card>
 
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <img
-              src={pic1}
-              style={{ height: "250px", background: " center /cover" }}
-            />
-            <CardTitle style={{ color: "#000", textAlign: "center" }}>
-              React Github User Finder
-            </CardTitle>
-
-            <CardText>
-              React github user finder is a web app that allow finding, of
-              users, repos and other details
-            </CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Live Demo</Button>
-              <Button colored>Quick View</Button>
-            </CardActions>
-
-            {/* <CardMenu style={{ color: "#000" }}>
-              <IconButton name="Share" />
-            </CardMenu> */}
-          </Card>
-
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
-            <img
-              src={pr1}
-              style={{ height: "250px", background: " center /cover" }}
-            />
-            <CardTitle style={{ color: "#000", textAlign: "center" }}>
-              React Business App
-            </CardTitle>
-
-            <CardText>
-              React Business web template. Built with reactjs, css, router,
-              bootstrap
-            </CardText>
-            <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Live Demo</Button>
-              <Button colored>Quick View</Button>
-            </CardActions>
-
-            {/* <CardMenu style={{ color: "#000" }}>
-              <IconButton name="Share" />
-            </CardMenu> */}
-          </Card>
-        </div>
+         
+           </div>
       </div>
     );
   }

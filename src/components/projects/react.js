@@ -51,14 +51,7 @@ class Reacts extends Component {
                   Live Demo
                 </a>
               </Button>
-              <Button colored>
-                <a
-                  href="https://isofttechn-business-template.netlify.com/"
-                  target="_blank"
-                >
-                  Quick View
-                </a>
-              </Button>
+              
             </CardActions>
 
             {/* <CardMenu style={{ color: "#fff", fontSize: "10px !important" }}>
