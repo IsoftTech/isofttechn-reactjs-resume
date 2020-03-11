@@ -22,7 +22,7 @@ import Reacts from "./projects/react";
 class Projects extends Component {
   constructor(props) {
     super(props);
-    this.state = { activeTab: 1 };
+    this.state = { activeTab: 2 };
   }
 
   toggleCategories() {

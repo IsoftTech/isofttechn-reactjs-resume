@@ -35,9 +35,30 @@ class Reacts extends Component {
               bootstrap
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Live Demo</Button>
-              <Button colored>Quick View</Button>
+              <Button colored>
+                <a
+                  href="https://isofttechn-business-template.netlify.com/"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://isofttechn-business-template.netlify.com/"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://isofttechn-business-template.netlify.com/"
+                  target="_blank"
+                >
+                  Quick View
+                </a>
+              </Button>
             </CardActions>
 
             {/* <CardMenu style={{ color: "#fff", fontSize: "10px !important" }}>
@@ -59,9 +80,30 @@ class Reacts extends Component {
               users, repos and other details
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Live Demo</Button>
-              <Button colored>Quick View</Button>
+              <Button colored>
+                <a
+                  href="https://githubusersfinder.netlify.com/"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://githubusersfinder.netlify.com/"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://githubusersfinder.netlify.com/"
+                  target="_blank"
+                >
+                  Quick View
+                </a>
+              </Button>
             </CardActions>
 
             {/* <CardMenu style={{ color: "#000" }}>
@@ -76,7 +118,6 @@ class Reacts extends Component {
             />
             <CardTitle style={{ color: "#000", textAlign: "center" }}>
               React Step By Step Form
-
             </CardTitle>
 
             <CardText>
@@ -84,9 +125,30 @@ class Reacts extends Component {
               bootstrap
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Live Demo</Button>
-              <Button colored>Quick View</Button>
+              <Button colored>
+                <a
+                  href="https://isofttechn-business-template.netlify.com/"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://isofttechn-business-template.netlify.com/"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://isofttechn-business-template.netlify.com/"
+                  target="_blank"
+                >
+                  Quick View
+                </a>
+              </Button>
             </CardActions>
 
             {/* <CardMenu style={{ color: "#000" }}>

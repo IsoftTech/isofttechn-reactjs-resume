@@ -12,8 +12,9 @@ import {
   IconButton
 } from "react-mdl";
 
-import pic1 from "../../images/projects/pic1.PNG";
-import pr1 from "../../images/projects/pr1.png";
+import cfba from "../../images/projects/cfba.png";
+import en from "../../images/projects/en.png";
+import hung from "../../images/projects/hun.png";
 
 class WordPress extends Component {
   render() {
@@ -22,7 +23,7 @@ class WordPress extends Component {
         <div className="projects-grid">
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <img
-              src={pr1}
+              src={en}
               style={{ height: "250px", background: " center /cover" }}
             />
             <CardTitle style={{ color: "#000", textAlign: "center" }}>
@@ -34,9 +35,21 @@ class WordPress extends Component {
               bootstrap
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Live Demo</Button>
-              <Button colored>Quick View</Button>
+              <Button colored>
+                <a href="https://enigeria.gov.ng" target="_blank">
+                  Github
+                </a>
+              </Button>
+              <Button colored>
+                <a href="https://enigeria.gov.ng" target="_blank">
+                  Live Demo
+                </a>
+              </Button>
+              <Button colored>
+                <a href="https://enigeria.gov.ng" target="_blank">
+                  Quick View
+                </a>
+              </Button>
             </CardActions>
 
             {/* <CardMenu style={{ color: "#fff", fontSize: "10px !important" }}>
@@ -46,7 +59,7 @@ class WordPress extends Component {
 
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <img
-              src={pic1}
+              src={hung}
               style={{ height: "250px", background: " center /cover" }}
             />
             <CardTitle style={{ color: "#000", textAlign: "center" }}>
@@ -58,11 +71,22 @@ class WordPress extends Component {
               users, repos and other details
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Live Demo</Button>
-              <Button colored>Quick View</Button>
+              <Button colored>
+                <a href="https://www.hunkybee.com/" target="_blank">
+                  Github
+                </a>
+              </Button>
+              <Button colored>
+                <a href="https://www.hunkybee.com/" target="_blank">
+                  Live Demo
+                </a>
+              </Button>
+              <Button colored>
+                <a href="https://www.hunkybee.com/" target="_blank">
+                  Quick View
+                </a>
+              </Button>
             </CardActions>
-
             {/* <CardMenu style={{ color: "#000" }}>
               <IconButton name="Share" />
             </CardMenu> */}
@@ -70,23 +94,33 @@ class WordPress extends Component {
 
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <img
-              src={pr1}
+              src={cfba}
               style={{ height: "250px", background: " center /cover" }}
             />
             <CardTitle style={{ color: "#000", textAlign: "center" }}>
               React Business App
             </CardTitle>
-
-            <CardText>
-              React Business web template. Built with reactjs, css, router,
-              bootstrap
-            </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Live Demo</Button>
-              <Button colored>Quick View</Button>
+              <CardText>
+                React Business web template. Built with reactjs, css, router,
+                bootstrap
+              </CardText>
+              <Button colored>
+                <a href="https://www.cfba.com.ng" target="_blank">
+                  Github
+                </a>
+              </Button>
+              <Button colored>
+                <a href="https://www.cfba.com.ng" target="_blank">
+                  Live Demo
+                </a>
+              </Button>
+              <Button colored>
+                <a href="https://www.cfba.com.ng" target="_blank">
+                  Quick View
+                </a>
+              </Button>
             </CardActions>
-
             {/* <CardMenu style={{ color: "#000" }}>
               <IconButton name="Share" />
             </CardMenu> */}

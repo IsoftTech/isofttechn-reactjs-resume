@@ -12,8 +12,8 @@ import {
   IconButton
 } from "react-mdl";
 
-import pic1 from "../../images/projects/pic1.PNG";
-import pr1 from "../../images/projects/pr1.png";
+import lar1 from "../../images/projects/lar1.PNG";
+import lar2 from "../../images/projects/lar2.PNG";
 
 class LaravelPhp extends Component {
   render() {
@@ -22,21 +22,41 @@ class LaravelPhp extends Component {
         <div className="projects-grid">
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <img
-              src={pr1}
+              src={lar1}
               style={{ height: "250px", background: " center /cover" }}
             />
             <CardTitle style={{ color: "#000", textAlign: "center" }}>
-              React Business App
+              Laravel Starter Template
             </CardTitle>
 
             <CardText>
-              React Business web template. Built with reactjs, css, router,
-              bootstrap
+              Laravel starter template is a multi - user manager
             </CardText>
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Live Demo</Button>
-              <Button colored>Quick View</Button>
+              <Button colored>
+                <a
+                  href="https://github.com/IsoftTech/IsofttechStarterAdmin"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://github.com/IsoftTech/IsofttechStarterAdmin"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://github.com/IsoftTech/IsofttechStarterAdmin"
+                  target="_blank"
+                >
+                  Quick View
+                </a>
+              </Button>
             </CardActions>
 
             {/* <CardMenu style={{ color: "#fff", fontSize: "10px !important" }}>
@@ -46,7 +66,7 @@ class LaravelPhp extends Component {
 
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <img
-              src={pic1}
+              src={lar1}
               style={{ height: "250px", background: " center /cover" }}
             />
             <CardTitle style={{ color: "#000", textAlign: "center" }}>
@@ -57,10 +77,32 @@ class LaravelPhp extends Component {
               React github user finder is a web app that allow finding, of
               users, repos and other details
             </CardText>
+
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Live Demo</Button>
-              <Button colored>Quick View</Button>
+              <Button colored>
+                <a
+                  href="https://github.com/IsoftTech/IsofttechStarterAdmin"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://github.com/IsoftTech/IsofttechStarterAdmin"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://github.com/IsoftTech/IsofttechStarterAdmin"
+                  target="_blank"
+                >
+                  Quick View
+                </a>
+              </Button>
             </CardActions>
 
             {/* <CardMenu style={{ color: "#000" }}>
@@ -70,7 +112,7 @@ class LaravelPhp extends Component {
 
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <img
-              src={pr1}
+              src={lar2}
               style={{ height: "250px", background: " center /cover" }}
             />
             <CardTitle style={{ color: "#000", textAlign: "center" }}>
@@ -81,10 +123,32 @@ class LaravelPhp extends Component {
               React Business web template. Built with reactjs, css, router,
               bootstrap
             </CardText>
+
             <CardActions border>
-              <Button colored>Github</Button>
-              <Button colored>Live Demo</Button>
-              <Button colored>Quick View</Button>
+              <Button colored>
+                <a
+                  href="https://github.com/IsoftTech/IsofttechStarterAdmin"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://github.com/IsoftTech/IsofttechStarterAdmin"
+                  target="_blank"
+                >
+                  Live Demo
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://github.com/IsoftTech/IsofttechStarterAdmin"
+                  target="_blank"
+                >
+                  Quick View
+                </a>
+              </Button>
             </CardActions>
 
             {/* <CardMenu style={{ color: "#000" }}>
